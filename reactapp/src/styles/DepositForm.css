@@ -1,0 +1,47 @@
+/* Container layout (vertical stack) */
+.vstack {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Messages */
+.success {
+    color: var(--success);
+    font-weight: 600;
+}
+
+.error {
+    color: var(--danger);
+    font-weight: 600;
+}
+
+/* Labels */
+label {
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 4px;
+    display: block;
+}
+
+/* Input styles (inherits global input styles) */
+input.input {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: white;
+    font-size: 15px;
+    transition: var(--transition);
+}
+
+input.input:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}
+
+/* Button spacing inside forms */
+button.btn-primary {
+    width: fit-content;
+    margin-top: 6px;
+}

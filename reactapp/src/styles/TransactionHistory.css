@@ -1,0 +1,29 @@
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.transactions-table th,
+.transactions-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  font-size: 14px;
+}
+
+.transactions-table tr:hover {
+  background: #f5f8fd;
+}
+
+.amount-plus {
+  color: var(--success);
+  font-weight: 700;
+}
+
+.amount-minus {
+  color: var(--danger);
+  font-weight: 700;
+}

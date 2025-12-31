@@ -1,0 +1,15 @@
+.form-card {
+  max-width: 650px;
+  margin: auto;
+}
+
+.vstack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.error {
+  color: var(--danger);
+  font-weight: 700;
+}

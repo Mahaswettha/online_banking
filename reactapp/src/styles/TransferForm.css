@@ -1,0 +1,62 @@
+/* Stack layout */
+.vstack {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Input rows */
+.form-row {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 4px;
+}
+
+/* Input style */
+.input {
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: #fff;
+    font-size: 15px;
+    transition: var(--transition);
+}
+
+.input:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+    outline: none;
+}
+
+/* Buttons */
+.btn-primary {
+    background: var(--accent);
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: var(--transition);
+    width: fit-content;
+}
+
+.btn-primary:hover {
+    background: var(--accent-2);
+}
+
+/* Alerts */
+.error {
+    color: var(--danger);
+    font-weight: 600;
+}
+
+.success {
+    color: var(--success);
+    font-weight: 600;
+}
